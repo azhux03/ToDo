@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background-image: linear-gradient(120deg, #bfbbb0 0%, #ead133 100%);
+  background-image: linear-gradient(120deg, #e9eab9 0%, #d7bf21 100%);
   color: white;
   font-family: "Poppins", sans-serif;
   min-height: 100vh;
@@ -28,7 +28,7 @@ form button {
   background: white;
 }
 form button {
-  color: #ff6f47;
+  color: #c847ff;
   background: #f7fffe;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -43,7 +43,7 @@ form button:hover {
   align-items: center;
 }
 
-.todo-list {
+.lst {
   min-width: 30%;
   list-style: none;
 }
@@ -66,15 +66,15 @@ form button:hover {
 }
 
 .trash-btn,
-.complete-btn {
-  background: #ff6f47;
+.finished-btn {
+  background: #c847ff;
   color: white;
   border: none;
   padding: 1rem;
   cursor: pointer;
   font-size: 1rem;
 }
-.complete-btn {
+.finished-btn {
   background: rgb(11, 212, 162);
 }
 .todo-item {
@@ -91,7 +91,7 @@ form button:hover {
   opacity: 0;
 }
 
-.completed {
+.finished {
   text-decoration: line-through;
   opacity: 0.5;
 }
@@ -115,7 +115,7 @@ select {
   overflow: hidden;
 }
 select {
-  color: #ff6f47;
+  color: #c847ff;
   font-family: "Poppins", sans-serif;
   cursor: pointer;
   width: 12rem;
@@ -127,7 +127,7 @@ select {
   top: 0;
   right: 0;
   padding: 1rem;
-  background: #ff6f47;
+  background: #c847ff;
   cursor: pointer;
   pointer-events: none;
 }
