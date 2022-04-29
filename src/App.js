@@ -20,7 +20,7 @@ function App() {
         setFiltered(todos.filter((todo) => todo.finished == true));
         console.log(filtered)
         break;
-      case 'unfinished':
+      case 'started':
         setFiltered(todos.filter((todo) => todo.finished == false));
         break;
       default:
